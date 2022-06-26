@@ -67,7 +67,7 @@ context("API Calls", () => {
                 expect(response.body)
                     .to.be.a( 'array')
                     // the notes would have at least one because we already created one earlier
-                    .and.to.have.length.gt(1)
+                    .and.to.have.length.gt(0)
             })
             // get 0th item from body
             .its("body")
